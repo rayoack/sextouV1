@@ -1,0 +1,223 @@
+/******BANNER******/
+
+.banner {
+  position: relative;
+  justify-content: center;
+  top: -147px;
+}
+
+.banner-image {
+  display: block;
+  position: relative;
+  width: 100vw;
+  z-index: 1;
+
+  border-bottom-right-radius: 20px;
+  filter: brightness(90%);
+}
+
+.banner-titulo {
+  position: absolute;
+  height: 390px;
+  z-index: 2;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 80px;
+}
+
+.banner-titulo h1 {
+  color: white;
+  font-size: 1em;
+}
+
+/******FORMULÁRIO******/
+
+#form-search {
+  margin-top: 10px;
+  width: 100vw;
+  justify-content: center;
+}
+
+#search {
+  width: 644px;
+  height: 75px;
+  padding-left: 60px;
+  border-radius: 12px;
+  color: #cacdd4;
+}
+
+.button-search {
+  position: relative;
+  left: -638px;
+  background: none;
+  border: none;
+}
+
+.button-search img {
+  cursor: pointer;
+}
+
+/******CATEGORIAS******/
+
+.categories-section {
+  flex-direction: column;
+}
+
+.categories-section h3 {
+  font-size: 28px;
+  color: #484848;
+  margin-bottom: 30px;
+}
+
+#categories-container {
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 10px 10px;
+  justify-content: center;
+}
+
+.box-category {
+  width: 232.5px;
+  height: 242px;
+
+  align-items: center;
+  flex-direction: column;
+
+  box-shadow: 0px 5px 15px 0px rgba(35, 41, 54, 0.15);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.box-category:nth-child(1) {
+  grid-column: 1/2;
+}
+
+.box-category:nth-child(2) {
+  grid-column: 2/3;
+}
+
+.box-category:nth-child(3) {
+  grid-column: 3/4;
+}
+
+.box-category:nth-child(4) {
+  grid-column: 4/5;
+}
+
+.category-imagem {
+  width: 232.5px;
+}
+
+.category-title {
+  color: #404040;
+  font-size: 30px;
+  margin-top: 35px;
+}
+
+/******MAPA******/
+
+.map-section {
+  margin-top: 130px;
+}
+
+.map-image {
+  width: 100%;
+}
+
+.map-title {
+  font-size: 28px;
+  color: #484848;
+  margin-bottom: 30px;
+}
+
+/******RESPONSIVIDADE 900px******/
+
+@media (max-width: 1000px) {
+  /******CATEGORIAS******/
+
+  #categories-container {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 10px 10px;
+  }
+
+  .categories-section {
+    align-items: center;
+  }
+
+  .box-category:nth-child(1) {
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+
+  .box-category:nth-child(2) {
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+
+  .box-category:nth-child(3) {
+    grid-column: 2/3;
+    grid-row: 1/2;
+  }
+
+  .box-category:nth-child(4) {
+    grid-column: 2/3;
+    grid-row: 2/3;
+  }
+
+  /******FORMULÁRIO E BANNER******/
+
+  .banner-titulo h1 {
+    display: none;
+  }
+
+  #form-search {
+    display: none;
+  }
+}
+
+/******RESPONSIVIDADE 500px******/
+
+@media (max-width: 500px) {
+  /******CATEGORIAS******/
+
+  #categories-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-row-gap: 10px;
+  }
+
+  .categories-section {
+    align-items: center;
+  }
+
+  .box-category:nth-child(1) {
+    grid-column: 1/1;
+    grid-row: 1/2;
+  }
+
+  .box-category:nth-child(2) {
+    grid-column: 1/1;
+    grid-row: 2/3;
+  }
+
+  .box-category:nth-child(3) {
+    grid-column: 1/1;
+    grid-row: 3/4;
+  }
+
+  .box-category:nth-child(4) {
+    grid-column: 1/1;
+    grid-row: 4/5;
+  }
+
+  /******FORMULÁRIO E BANNER******/
+
+  .banner-titulo h1 {
+    display: none;
+  }
+
+  #form-search {
+    display: none;
+  }
+}
