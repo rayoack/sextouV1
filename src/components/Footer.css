@@ -1,8 +1,9 @@
 footer {
   width: 100vw;
-  height: 200px;
+  height: 300px;
   margin-top: 100px;
 
+  align-items: center;
   justify-content: center;
 
   background: linear-gradient(
@@ -48,6 +49,12 @@ footer {
 .fotter-menu-link {
   font-size: 20px;
   color: white;
+}
+
+.footer-bottom {
+  width: 100vw;
+  height: 50px;
+  background: rgba(124, 42, 232, 1);
 }
 
 /******RESPONSIVIDADE 1000px******/

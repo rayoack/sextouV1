@@ -4,9 +4,37 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Document</title>
+
+    <link rel="stylesheet" href="../../../global.css" />
+    <link rel="stylesheet" href="../../../components/Header.css" />
+    <link rel="stylesheet" href="../../../components/Footer.css" />
+
+    <script src="./baladas.js"></script>
+    <script src="./baladas.css"></script>
+
+    <script src="../../../components/Footer.js"></script>
+    <script src="../../../components/Header.js"></script>
+    <title>Sextou | Baladas</title>
   </head>
-  <body>
-    <h1>Baladas</h1>
+  <body class="flex">
+    <header class="flex">
+      <a id="header-menu" href="../../../../index.html"></a>
+    </header>
+
+    <section id="baladas-container" class="container"></section>
+
+    <footer class="flex">
+      <div class="footer-inside container grid">
+        <div class="footer-logo flex">
+          <img src="../../../assets/footer/lua-circle.svg" alt="Logo lua" />
+          <h3>SEXTOU!</h3>
+        </div>
+        <div class="footer-menu-container flex">
+          <h3>Categorias</h3>
+          <div id="footer-menu" class="flex"></div>
+        </div>
+      </div>
+    </footer>
+    <div class="footer-bottom"></div>
   </body>
 </html>

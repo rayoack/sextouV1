@@ -1,0 +1,13 @@
+.box-balada {
+  height: 300px;
+  grid-template-columns: 30% 70%;
+  grid-template-rows: 1fr;
+}
+
+.balada-capa {
+  background-size: cover;
+}
+
+.balada-description {
+  flex-direction: column;
+}

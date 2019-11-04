@@ -1,3 +1,6 @@
+import Logo from "../assets/header/logosextou.png";
+import ProfileImg from "../assets/header/profile.png";
+
 const headerMenu = document.getElementById("header-menu");
 
 const createMenu = () => {
@@ -5,12 +8,12 @@ const createMenu = () => {
     <div class="container menu-box flex">
       <img
         class="logo"
-        src="src/assets/header/logosextou.png"
+        src=${Logo}
         alt="logo sextou"
       />
       <img
         class="profile"
-        src="src/assets/header/profile.svg"
+        src=${ProfileImg}
         alt="profile"
       />
     </div>
