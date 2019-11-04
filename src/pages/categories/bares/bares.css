@@ -4,7 +4,7 @@
   font-weight: normal;
 }
 
-.box-balada {
+.box-bar {
   height: 300px;
   margin-top: 50px;
 
@@ -16,51 +16,52 @@
   box-shadow: 0px 5px 15px 0px rgba(35, 41, 54, 0.15);
 }
 
-.balada-capa {
+.bar-capa {
   background-size: cover;
   height: 300px;
   border-top-left-radius: 20px;
 }
 
-.balada-description {
+.bar-description {
   flex-direction: column;
   margin-left: 30px;
   margin-top: 30px;
 }
 
-.balada-description p {
+.bar-description p {
   margin-top: 10px;
 }
 
-.balada-title {
+.bar-title {
   color: #404040;
   font-size: 50px;
 }
 
-.balada-date {
+.bar-date {
   color: #404040;
   font-size: 30px;
 }
 
-.balada-adress {
+.bar-adress {
   color: #404040;
   font-size: 30px;
 }
 
-.balada-category {
+.bar-category {
   color: #404040;
   font-size: 25px;
   margin-right: 20px;
 }
 
-.balada-price {
+.bar-price {
   color: #404040;
   font-size: 25px;
   margin-left: 20px;
 }
 
+
 @media (max-width: 900px) {
-  .box-balada {
+  .box-bar {
     height: 100%;
 
     grid-template-columns: 1fr;
@@ -68,11 +69,11 @@
     grid-row-gap: 20px;
   }
 
-  .balada-capa {
+  .bar-capa {
     grid-row: 1/2;
   }
 
-  .balada-description {
+  .bar-description {
     grid-row: 2/3;
     margin-top: 100px;
   }
