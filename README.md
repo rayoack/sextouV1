@@ -10,7 +10,7 @@
 
 ![Post image](src/assets/prints/categoria-bares.png)
 
-### <strong>Página da categoria de um evento:</strong>
+### <strong>Página de um evento:</strong>
 
 ![Post image](src/assets/prints/evento.png)
 
