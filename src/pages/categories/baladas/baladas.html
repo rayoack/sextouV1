@@ -9,35 +9,96 @@
     <link rel="stylesheet" href="../../../components/Header.css" />
     <link rel="stylesheet" href="../../../components/Footer.css" />
 
-    <script src="./baladas.js"></script>
-    <script src="./baladas.css"></script>
-
-    <script src="../../../components/Footer.js"></script>
-    <script src="../../../components/Header.js"></script>
+    <link rel="stylesheet" href="./baladas.css" />
     <title>Sextou | Baladas</title>
   </head>
   <body class="flex">
-    <header class="flex">
-      <a id="header-menu" href="../../../../index.html"></a>
-    </header>
+    <!--HEADER-->
+    <header id="header-menu" class="flex">
+        <div class="container menu-box flex">
+          <a href="../../../../index.html">
+            <img
+              class="logo"
+              src="../../../assets/header/logosextou.png"
+              alt="logo sextou"
+            />
+          </a>
+  
+          <a href="../../../pages/profile/profile.html">
+            <img
+              class="profile"
+              src="../../../assets/header/profile.svg"
+              alt="profile"
+            />
+          </a>
+        </div>
+      </header><!--HEADER-->
 
     <section class="container">
       <h2 class="page-title">Baladas Próximas a você</h2>
-      <div id="baladas-container"></div>
+      <div id="baladas-container">
+          <a class="box-balada grid" href="../../places/baladas/baladaMix.html">
+            <div class="balada-capa" style="background-image: url(../../../assets/lugares/baladas/baladaMix.jpg)"></div>
+            <div class="balada-description flex">
+              <h4 class="balada-title">Balada mix 21</h4>
+              <p class="balada-date">Data: Sexta-feira, Ago 24, 7PM</p>
+              <p class="balada-adress">Endereço: dolor sit amet, 137, consectetur elit</p>
+              <div class="balada-min-box flex">
+                <p class="balada-category">Baladas</p>
+                <p>|<p>
+                <p class="balada-price">R$20 - R$100</p>
+              </div>
+            </div>
+          </a>
+
+          <a class="box-balada grid" href="../../places/baladas/rioMusic.html">
+            <div class="balada-capa" style="background-image: url(../../../assets/lugares/baladas/rioMusic.png)"></div>
+            <div class="balada-description flex">
+              <h4 class="balada-title">Rio Music</h4>
+              <p class="balada-date">Data: Sexta-feira, Ago 24, 7PM</p>
+              <p class="balada-adress">Endereço: dolor sit amet, 280, consectetur elit</p>
+              <div class="balada-min-box flex">
+                <p class="balada-category">Baladas</p>
+                <p>|<p>
+                <p class="balada-price">R$20 - R$70</p>
+              </div>
+            </div>
+          </a>
+
+          <a class="box-balada grid" href="../../places/baladas/royaltPay.html">
+            <div class="balada-capa" style="background-image: url(../../../assets/lugares/baladas/royalt.jpg)"></div>
+            <div class="balada-description flex">
+              <h4 class="balada-title">Royalt Pay</h4>
+              <p class="balada-date">Data: Sexta-feira, Ago 25, 10PM</p>
+              <p class="balada-adress">Endereço: dolor sit amet, 350, consectetur elit</p>
+              <div class="balada-min-box flex">
+                <p class="balada-category">Baladas</p>
+                <p>|<p>
+                <p class="balada-price">R$20 - R$120</p>
+              </div>
+            </div>
+          </a>
+      </div>
     </section>
 
+    <!--FOOTER-->
     <footer class="flex">
-      <div class="footer-inside container grid">
-        <div class="footer-logo flex">
-          <img src="../../../assets/footer/lua-circle.svg" alt="Logo lua" />
-          <h3>SEXTOU!</h3>
+        <div class="footer-inside container grid">
+          <div class="footer-logo flex">
+            <img src="../../../assets/footer/lua-circle.svg" alt="Logo lua" />
+            <h3>SEXTOU!</h3>
+          </div>
+          <div class="footer-menu-container flex">
+            <h3>Categorias</h3>
+            <div id="footer-menu" class="flex">
+                <a class="fotter-menu-link" href="../../../pages/categories/baladas/baladas.html">Baladas</a>
+                <a class="fotter-menu-link" href="../../../pages/categories/bares/bares.html">Bares</a>
+                <a class="fotter-menu-link" href="../../../pages/categories/eventos/eventos.html">Eventos</a>
+                <a class="fotter-menu-link" href="../../../pages/categories/esportes/esportes.html">Esportes</a>
+            </div>
+          </div>
         </div>
-        <div class="footer-menu-container flex">
-          <h3>Categorias</h3>
-          <div id="footer-menu" class="flex"></div>
-        </div>
-      </div>
-    </footer>
-    <div class="footer-bottom"></div>
+      </footer>
+      <div class="footer-bottom"></div><!--FOOTER-->
   </body>
 </html>

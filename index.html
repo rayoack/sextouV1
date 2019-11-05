@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <link rel="stylesheet" href="src/pages/inicial/inicial.css" />
-    <script src="src/pages/inicial/inicial.js"></script>
 
     <link
       href="https://fonts.googleapis.com/css?family=Lato&display=swap"
@@ -16,16 +15,31 @@
     <link rel="stylesheet" href="src/global.css" />
     <link rel="stylesheet" href="src/components/Header.css" />
     <link rel="stylesheet" href="src/components/Footer.css" />
-
-    <script src="src/components/Footer.js"></script>
-    <script src="src/components/Header.js"></script>
   </head>
 
   <body class="flex">
-    <header class="flex">
-      <a id="header-menu" href="./index.html"></a>
-    </header>
+    <!--HEADER-->
+    <header id="header-menu" class="flex">
+      <div class="container menu-box flex">
+        <a href="./index.html">
+          <img
+            class="logo"
+            src="./src/assets/header/logosextou.png"
+            alt="logo sextou"
+          />
+        </a>
 
+        <a href="./src/pages/profile/profile.html">
+          <img
+            class="profile"
+            src="./src/assets/header/profile.svg"
+            alt="profile"
+          />
+        </a>
+      </div>
+    </header><!--HEADER-->
+
+    <!--BANNER-->
     <section class="banner flex">
       <img
         class="banner-image"
@@ -45,20 +59,43 @@
           </button>
         </form>
       </div>
-    </section>
+    </section><!--BANNER-->
 
+    <!--CATEGORIAS-->
     <section class="container categories-section flex">
       <h3 class="categories-title">Como quer se divertir?</h3>
-      <div id="categories-container" class="grid"></div>
-    </section>
+      <div id="categories-container" class="grid">
+        <a href="./src/pages/categories/baladas/baladas.html" class="box-category flex">
+          <img class="category-imagem" src="./src/assets/inicial/baladas.svg" />
+          <p class="category-title">Baladas</p>
+        </a>
 
+        <a href="./src/pages/categories/bares/bares.html" class="box-category flex">
+          <img class="category-imagem" src="./src/assets/inicial/pubs.svg" />
+          <p class="category-title">Bares</p>
+        </a>
+
+        <a href="./src/pages/categories/eventos/eventos.html" class="box-category flex">
+          <img class="category-imagem" src="./src/assets/inicial/events.svg" />
+          <p class="category-title">Eventos</p>
+        </a>
+
+        <a href="./src/pages/categories/esportes/esportes.html" class="box-category flex">
+          <img class="category-imagem" src="./src/assets/inicial/sports.svg" />
+          <p class="category-title">Esportes</p>
+        </a>
+      </div>
+    </section><!--CATEGORIAS-->
+
+    <!--MAPA-->
     <section class="container map-section">
       <h3 class="map-title">Mapa</h3>
       <div>
         <img class="map-image" src="src/assets/inicial/Map.svg" />
       </div>
-    </section>
+    </section><!--MAPA-->
 
+    <!--FOOTER-->
     <footer class="flex">
       <div class="footer-inside container grid">
         <div class="footer-logo flex">
@@ -67,10 +104,15 @@
         </div>
         <div class="footer-menu-container flex">
           <h3>Categorias</h3>
-          <div id="footer-menu" class="flex"></div>
+          <div id="footer-menu" class="flex">
+              <a class="fotter-menu-link" href="./src/pages/categories/baladas/baladas.html">Baladas</a>
+              <a class="fotter-menu-link" href="./src/pages/categories/bares/bares.html">Bares</a>
+              <a class="fotter-menu-link" href="./src/pages/categories/eventos/eventos.html">Eventos</a>
+              <a class="fotter-menu-link" href="./src/pages/categories/esportes/esportes.html">Esportes</a>
+          </div>
         </div>
       </div>
     </footer>
-    <div class="footer-bottom"></div>
+    <div class="footer-bottom"></div><!--FOOTER-->
   </body>
 </html>
