@@ -9,23 +9,80 @@
     <link rel="stylesheet" href="../../../components/Header.css" />
     <link rel="stylesheet" href="../../../components/Footer.css" />
 
-    <script src="./esportes.js"></script>
-    <script src="./esportes.css"></script>
+    <link rel="stylesheet" href="./esportes.css" />
 
-    <script src="../../../components/Footer.js"></script>
-    <script src="../../../components/Header.js"></script>
     <title>Sextou | Esportes</title>
   </head>
   <body class="flex">
-    <header class="flex">
-      <a id="header-menu" href="../../../../index.html"></a>
-    </header>
+    <!--HEADER-->
+    <header id="header-menu" class="flex">
+      <div class="container menu-box flex">
+        <a href="../../../../index.html">
+          <img
+            class="logo"
+            src="../../../assets/header/logosextou.png"
+            alt="logo sextou"
+          />
+        </a>
+
+        <a href="../../../pages/profile/profile.html">
+          <img
+            class="profile"
+            src="../../../assets/header/profile.svg"
+            alt="profile"
+          />
+        </a>
+      </div>
+    </header><!--HEADER-->
 
     <section class="container">
       <h2 class="page-title">Esportes Próximas a você</h2>
-      <div id="esportes-container"></div>
+      <div id="esportes-container">
+        <a class="box-esporte grid" href="../../places/esportes/flamengo.html">
+          <div class="esporte-capa" style="background-image: url(../../../assets/lugares/esportes/flamengo.jpeg)"></div>
+          <div class="esporte-description flex">
+            <h4 class="esporte-title">Flamengo vs Fluminense</h4>
+            <p class="esporte-date">Data: Sexta-feira, Ago 24, 7PM</p>
+            <p class="esporte-adress">Endereço: dolor sit amet, 137, consectetur elit</p>
+            <div class="esporte-min-box flex">
+              <p class="esporte-category">Esportes</p>
+              <p>|<p>
+              <p class="esporte-price">R$20 - R$100</p>
+            </div>
+          </div>
+        </a>
+
+        <a class="box-esporte grid" href="../../places/esportes/bangu.html">
+          <div class="esporte-capa" style="background-image: url(../../../assets/lugares/esportes/bangu.jpg)"></div>
+          <div class="esporte-description flex">
+            <h4 class="esporte-title">Vasco vs Bangu</h4>
+            <p class="esporte-date">Data: Sexta-feira, Ago 24, 7PM</p>
+            <p class="esporte-adress">Endereço: dolor sit amet, 280, consectetur elit</p>
+            <div class="esporte-min-box flex">
+              <p class="esporte-category">Esportes</p>
+              <p>|<p>
+              <p class="esporte-price">R$20 - R$70</p>
+            </div>
+          </div>
+        </a>
+
+        <a class="box-esporte grid" href="../../places/esportes/america.html">
+          <div class="esporte-capa" style="background-image: url(../../../assets/lugares/esportes/america.jpg)"></div>
+          <div class="esporte-description flex">
+            <h4 class="esporte-title">America vs Botafogo</h4>
+            <p class="esporte-date">Data: Sábado, Ago 25, 10PM</p>
+            <p class="esporte-adress">Endereço: dolor sit amet, 350, consectetur elit</p>
+            <div class="esporte-min-box flex">
+              <p class="esporte-category">Esportes</p>
+              <p>|<p>
+              <p class="esporte-price">R$20 - R$120</p>
+            </div>
+          </div>
+        </a>
+      </div>
     </section>
 
+    <!--FOOTER-->
     <footer class="flex">
       <div class="footer-inside container grid">
         <div class="footer-logo flex">
@@ -34,10 +91,15 @@
         </div>
         <div class="footer-menu-container flex">
           <h3>Categorias</h3>
-          <div id="footer-menu" class="flex"></div>
+          <div id="footer-menu" class="flex">
+              <a class="fotter-menu-link" href="../../../pages/categories/baladas/baladas.html">Baladas</a>
+              <a class="fotter-menu-link" href="../../../pages/categories/bares/bares.html">Bares</a>
+              <a class="fotter-menu-link" href="../../../pages/categories/eventos/eventos.html">Eventos</a>
+              <a class="fotter-menu-link" href="../../../pages/categories/esportes/esportes.html">Esportes</a>
+          </div>
         </div>
       </div>
     </footer>
-    <div class="footer-bottom"></div>
+    <div class="footer-bottom"></div><!--FOOTER-->
   </body>
 </html>
