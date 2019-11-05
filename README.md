@@ -10,6 +10,10 @@
 
 ![Post image](src/assets/prints/categoria-bares.png)
 
+### <strong>Página da categoria de um evento:</strong>
+
+![Post image](src/assets/prints/evento.png)
+
 ## Sobre o projeto: 📃
 
 Este site era uma tarefa do curso Recode Pro, e o objetivo era desenvolver um site onde você pode encontrar lugares para se divertir que estejam próximos a você, o site deveria ser construído com html, css e javascript, sem a utilização de nenhuma biblioteca.
