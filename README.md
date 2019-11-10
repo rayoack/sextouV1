@@ -1,7 +1,5 @@
 # Sextou V1 🌒
 
-link: http://sextou.surge.sh/
-
 ## Imagens: 📷
 
 ### <strong>Página inicial:</strong>
